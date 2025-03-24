@@ -36,4 +36,4 @@ connectDB();
 // //     }
 // //     app.listen(process.env.PORT)
 // // }) ();
-app.listen(process.env.PORT)
+app.listen(process.env.PORT || 6000, '0.0.0.0')
